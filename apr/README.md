@@ -1,5 +1,5 @@
 
-# APR Spring Boot App
+# APR (Amazon Product Research)Spring Boot App
 
 ## Run
 
