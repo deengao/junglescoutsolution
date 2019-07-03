@@ -31,7 +31,6 @@ Screen Capture:
   <img src="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/Screenshot+2019-07-03+at+10.34.37+AM.png"> 
 </a>
 
-
 <a target="_blank" href="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/Jul-03-2019+10-42-24.gif"> Flow Capture
   <img src="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/Jul-03-2019+10-42-24.gif"> 
 </a>
