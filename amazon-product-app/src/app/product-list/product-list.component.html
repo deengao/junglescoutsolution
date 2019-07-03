@@ -12,7 +12,8 @@
 
     <ng-container matColumnDef="asin">
       <mat-header-cell *matHeaderCellDef mat-sort-header> ASIN </mat-header-cell>
-      <mat-cell *matCellDef="let product"> {{product.asin}} </mat-cell>
+      <mat-cell *matCellDef="let product"> <a target="_blank" href="https://www.amazon.com/dp/{{product.asin}}">{{product.asin}}</a> 
+      </mat-cell>
     </ng-container>
 
 
@@ -30,13 +31,6 @@
       <mat-header-cell *matHeaderCellDef mat-sort-header> Dimensions </mat-header-cell>
       <mat-cell *matCellDef="let product"> {{product.dimensions}} </mat-cell>
     </ng-container>
-
-    <!-- <ng-container matColumnDef="operations">
-      <mat-header-cell *matHeaderCellDef mat-sort-header> Operations </mat-header-cell>
-      <mat-cell *matCellDef="let element"> <button mat-button color="primary" (click)="deleteCustomer(element.id)"><mat-icon>delete</mat-icon>
-      </button> <button mat-button color="primary" (click)="editCustomer(element.id)"><mat-icon>edit</mat-icon></button> </mat-cell>
-    </ng-container>
-  -->
 
   </mat-table>
   <mat-paginator  #paginator [style.display]="loading === false ? 'block' : 'none'" [pageSize]="5" ></mat-paginator>
