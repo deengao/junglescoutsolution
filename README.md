@@ -13,7 +13,8 @@ Since using Amazon Product Advertising API requires applying amazon affiliate fi
 The backend app is responsible fetching product information given a ASIN, the frontend serves as the user input and product information display purpose. 
 
 <a href="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/flow_cap.gif"> flow screen 
-  <img src="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/flow_cap.gif"> </a>
+  <img src="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/flow_cap.gif"> 
+</a>
 
 Other Questions: 
 a. What were the biggest challenges you faced in writing the challenge?
