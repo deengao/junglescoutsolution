@@ -46,7 +46,7 @@ b. Can you explain your thought process on how you solved the problem, and what 
   1. Indentify to use the web scrapping to fetch product information from Amazon
   2. Design the scapping logic by normalizing different kinds product pages layout and text
   3. Design the data flow and key components of the overall app. 
-  4. Implement the design and fine-tune
+  4. Implement the design and fine-tune (added cache layer in backend app)
 
 c. If you had to scale this application to handle millions of people adding in ASIN's in a given day, what considerations would you make?
   1. Infrastrcutre consideration: include load balancer 
