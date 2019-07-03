@@ -17,8 +17,23 @@ Since using Amazon Product Advertising API requires applying amazon affiliate fi
 
 The backend app is responsible fetching product information given a ASIN, the frontend serves as the user input and product information display purpose. 
 
-<a href="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/flow_cap.gif"> flow screen 
-  <img src="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/flow_cap.gif"> 
+Screen Capture:
+
+<a target="_blank" href="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/Screenshot+2019-07-03+at+10.34.18+AM.png"> user input product page
+  <img src="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/Screenshot+2019-07-03+at+10.34.18+AM.png"> 
+</a>
+
+<a target="_blank" href="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/Screenshot+2019-07-03+at+10.34.27+AM.png"> product fetch display
+  <img src="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/Screenshot+2019-07-03+at+10.34.27+AM.png"> 
+</a>
+
+<a target="_blank" href="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/Screenshot+2019-07-03+at+10.34.37+AM.png"> Product List page (support sort)
+  <img src="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/Screenshot+2019-07-03+at+10.34.37+AM.png"> 
+</a>
+
+
+<a target="_blank" href="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/Jul-03-2019+10-42-24.gif"> Flow Capture
+  <img src="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/Jul-03-2019+10-42-24.gif"> 
 </a>
 
 Other Questions: 
