@@ -10,6 +10,11 @@ PS. You're probably going to think the best solution for the challenge would be 
 High Level Solution: 
 Since using Amazon Product Advertising API requires applying amazon affiliate first, and it required human validation in the process, it could not use API to fetch amazon product information. Other way to fetch the information from Amazon is using web scrapper. This repo includes the solution of a backend java spring boot app and a frontend angular app. 
 
+<a href="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/Screenshot+2019-07-02+at+10.17.16+PM.png"> Architecture Diagram 
+  <img src="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/Screenshot+2019-07-02+at+10.17.16+PM.png"> 
+</a>
+
+
 The backend app is responsible fetching product information given a ASIN, the frontend serves as the user input and product information display purpose. 
 
 <a href="https://s3-us-west-2.amazonaws.com/cloudsms.assets/me/flow_cap.gif"> flow screen 
