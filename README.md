@@ -64,3 +64,4 @@ d. Why did you choose the technologies you used?
  ToDo:
  1. Implement the backend batch job (daily) fetch , compare and update product information
  2. Assumming amazon product page layout styles is finite. The web srapping logic further fine-tine from rule-based to data driven style, normalize the layout categories and introduce human loop if extraction face exception. So that the web scrapping logic will try analyze the new page layout and decide what scrapping strategy to use. 
+ 3. Deployment to Cloud  
