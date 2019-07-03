@@ -12,6 +12,7 @@ export class ProductComponent implements OnInit {
 
   asin = '';
   loading = false;
+  product: Product;
 
   constructor(public snackBar: MatSnackBar, private productService: ProductService) {}
 
@@ -20,8 +21,10 @@ export class ProductComponent implements OnInit {
 
   getProduct() {
     this.loading = true;
+    this.product = null;
     this.productService.getProduct(this.asin).subscribe(
       (d: Product) => {
+        this.product = d;
         this.loading = false;
         this.snackBar.open(`Product fetched #${this.asin}`, 'Dimiss', {
           duration: 2000
