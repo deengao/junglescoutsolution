@@ -1,1 +1,3 @@
-./gradlew bootJar
+Run
+cd apr
+./gradlew bootRun
