@@ -25,13 +25,6 @@ export class ProductListComponent implements OnInit, AfterViewInit {
 
   constructor(public snackBar: MatSnackBar, private productService: ProductService) {}
 
-  deleteCustomer(id) {
-    let snackBarRef = this.snackBar.open(`Deleting customer #${id}`);
-  }
-
-  editCustomer(id) {
-    let snackBarRef = this.snackBar.open(`Editing customer #${id}`);
-  }
   ngAfterViewInit() {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
