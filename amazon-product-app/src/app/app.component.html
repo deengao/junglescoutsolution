@@ -1,0 +1,11 @@
+<mat-toolbar color="primary" class="fixed-header">
+  <mat-toolbar-row>
+    <span><img src="./assets/logo.png" style="width:50px;"></span>
+    <a mat-button routerLink="/product-list">Products</a>
+    <a mat-button routerLink="/product-create" routerLinkActive="active">Product</a>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<main>
+  <router-outlet style="margin-top: 80px;"></router-outlet>
+</main>

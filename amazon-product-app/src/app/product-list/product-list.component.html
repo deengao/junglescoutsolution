@@ -1,0 +1,43 @@
+<div class="mat-elevation-z8">
+  <mat-spinner style="margin:0 auto;" [style.display]="loading ? 'block' : 'none'"></mat-spinner>
+
+  <mat-table [style.display]="loading === false ? 'block' : 'none'" #table [dataSource]="dataSource" matSort>
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>      
+
+    <ng-container matColumnDef="productTitle">
+      <mat-header-cell *matHeaderCellDef mat-sort-header> Title </mat-header-cell>
+      <mat-cell *matCellDef="let product"> {{product.productTitle}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="asin">
+      <mat-header-cell *matHeaderCellDef mat-sort-header> ASIN </mat-header-cell>
+      <mat-cell *matCellDef="let product"> {{product.asin}} </mat-cell>
+    </ng-container>
+
+
+    <ng-container matColumnDef="category">
+      <mat-header-cell *matHeaderCellDef mat-sort-header> Category </mat-header-cell>
+      <mat-cell *matCellDef="let product"> {{product.category}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="rank">
+      <mat-header-cell *matHeaderCellDef mat-sort-header> Rank </mat-header-cell>
+      <mat-cell *matCellDef="let product"> {{product.rank}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="dimensions">
+      <mat-header-cell *matHeaderCellDef mat-sort-header> Dimensions </mat-header-cell>
+      <mat-cell *matCellDef="let product"> {{product.dimensions}} </mat-cell>
+    </ng-container>
+
+    <!-- <ng-container matColumnDef="operations">
+      <mat-header-cell *matHeaderCellDef mat-sort-header> Operations </mat-header-cell>
+      <mat-cell *matCellDef="let element"> <button mat-button color="primary" (click)="deleteCustomer(element.id)"><mat-icon>delete</mat-icon>
+      </button> <button mat-button color="primary" (click)="editCustomer(element.id)"><mat-icon>edit</mat-icon></button> </mat-cell>
+    </ng-container>
+  -->
+
+  </mat-table>
+  <mat-paginator  #paginator [style.display]="loading === false ? 'block' : 'none'" [pageSize]="5" ></mat-paginator>
+</div>
