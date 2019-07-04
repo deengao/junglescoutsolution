@@ -56,7 +56,7 @@ c. If you had to scale this application to handle millions of people adding in A
 
 d. Why did you choose the technologies you used?
   1. Spring boot as backend make it easy to create Spring-powered, production-grade applications and services, ORM, MVC are gifts
-  2. Angular create a clean aomponent-based frontend architecture.
+  2. Angular create a clean component-based frontend architecture with cli support and well community.
 
 
 
