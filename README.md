@@ -1,4 +1,4 @@
-# junglescout_solution
+# solution
 
 Question:
 
